@@ -1,0 +1,116 @@
+body {
+    zoom: 150%;
+}
+
+.app-container {
+    padding: 20px;
+    font-family: sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.tasks-section {
+    margin-top: 20px;
+}
+
+.tasks-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.task-item {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.2s ease;
+}
+
+.task-content {
+    display: flex;
+    align-items: center;
+}
+
+.status-icon {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.task-text {
+    text-decoration: none;
+    color: #000;
+}
+
+.task-text.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.task-date {
+    color: #666;
+    font-size: 0.85em;
+}
+
+.task-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.task-input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.task-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.task-button:hover {
+    background-color: #0056b3;
+}
+
+/* Контейнер панели статистики */
+.stats-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 20px 15px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    border: 1px solid #e9ecef;
+}
+
+.stats-info {
+    display: flex;
+    gap: 20px;
+    font-size: 15px;
+    color: #495057;
+}
+
+.clear-button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 12px 13px;
+    font-size: 13px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.clear-button:hover {
+    background-color: #bd2130;
+}
